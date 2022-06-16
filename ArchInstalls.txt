@@ -1,0 +1,1 @@
+yay -Syu && yay -S --sudoloop --noconfirm m4 make autoconf pkgconf gcc flex automake gc guile go google-chrome telegram-desktop pycharm-professional webstorm visual-studio-code-bin rclone yt-dlp mpv nodejs npm libreoffice-fresh ttf-ms-fonts nerd-fonts-fira-code kvantum-qt5 fish viber nextcloud-client starship bluemail onlyoffice mpv 
