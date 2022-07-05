@@ -2,7 +2,7 @@
 sudo pacman-mirrors -f 50 &&
 wget https://raw.githubusercontent.com/aaxyat/ScriptsRepo/main/pacman.conf &&
 sudo mv pacman.conf /etc/pacman.conf &&
-sudo pacman -S --needed  git base-devel yay && 
+sudo pacman -S --needed --noconfirm git base-devel yay && 
 mkdir -p ~/Documents/git/ &&
 cd ~/Documents/git/ &&
 if cd ScriptsRepo; then echo "Repo Exists"; else git clone https://github.com/aaxyat/ScriptsRepo.git; fi &&
